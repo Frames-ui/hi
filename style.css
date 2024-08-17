@@ -22,11 +22,10 @@ body {
     background-color: rgba(255, 255, 255, 0.8); /* Optional: Semi-transparent background for better text readability */
     border-radius: 10px; /* Optional: Rounded corners */
 }
-
 .profile-pic {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 25%;
+    height: 25%;
 }
 
 .name {

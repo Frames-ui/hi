@@ -31,8 +31,8 @@ body {
 
 .profile-pic {
     border-radius: 50%; /* Round image more consistently */
-    width: 25px; /* Set a specific width */
-    height: 25px; /* Set a specific height */
+    width: 5px; /* Set a specific width */
+    height: 5px; /* Set a specific height */
     max-width: 25vw; /* Responsive max width based on viewport width */
     max-height: 25vw; /* Responsive max height based on viewport width */
     object-fit: cover; /* Ensure image covers area without distortion */

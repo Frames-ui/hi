@@ -3,17 +3,16 @@ html, body {
     height: 100%;
     margin: 0;
 }
-
-body {
-    font-family: Arial, sans-serif;
-    background-image: url('97c538dee6057347c178242083c31045.jpg'); /* Replace with the path to your image */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating the image */
-    color: #333;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('carti.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 /* Container styling */

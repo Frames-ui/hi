@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        audio {
+            width: 100%; /* Full-width audio player */
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to My Audio Page</h1>
+        <p>Below is an audio player embedded on the page:</p>
+        <!-- Replace 'audio.mp3' with the path to your audio file -->
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg"> <!-- Change type if using a different format -->
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>

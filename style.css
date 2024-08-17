@@ -1,27 +1,32 @@
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('carti.png'); /* Replace with the path to your image */
-    background-size: cover; /* Cover the entire viewport */
-    background-position: center center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent repeating the image */
-    color: #333;
-    text-align: center;
     margin: 0;
     padding: 0;
+    font-family: "Jacquard 24";
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/236x/a8/d8/aa/a8d8aa269291718d2d88003665c348d3.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: Semi-transparent background for better text readability */
-    border-radius: 10px; /* Optional: Rounded corners */
 }
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 .profile-pic {
     border-radius: 50%;
     width: 25%;
@@ -29,46 +34,11 @@ body {
 }
 
 .name {
-    font-size: 2em;
-    margin: 10px 0;
-}
-
-.bio {
-    margin: 10px 0;
-    font-size: 1.1em;
+    font-size: 300%;
+    color: #ffffff;
+    margin-top: 0;
 }
 
 .social-links a {
-    margin: 0 10px;
-    display: inline-block;
-}
-
-.cta a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.cta a:hover {
-    background-color: #0056b3;
-}
-
-.featured-content {
-    margin-top: 20px;
-}
-
-.featured-link {
-    display: block;
-    margin: 10px 0;
-    font-size: 1.2em;
-    color: #007bff;
-    text-decoration: none;
-}
-
-.featured-link:hover {
-    text-decoration: underline;
+    margin: 1.5%;
 }

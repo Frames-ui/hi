@@ -7,9 +7,11 @@
     <title>Biolink</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/474x/ca/df/7c/cadf7c128f2d7211042982fbe1a99f01.jpg">
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.0.0/tsparticles.min.js"></script>
 </head>
 
 <body>
+    <div id="tsparticles"></div>
     <div class="background"></div>
     <div class="container">
         <div class="header">
@@ -36,6 +38,35 @@
             </div>
         </div>
     </div>
+    <script>
+        // Initialize tsparticles
+        tsParticles.load("tsparticles", {
+            "particles": {
+                "number": {
+                    "value": 100
+                },
+                "size": {
+                    "value": 3
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 1
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    }
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
